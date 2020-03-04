@@ -1,0 +1,21 @@
+.red{
+padding: 50px;
+background-color: red;
+text-align: center;
+font-weight: bold;
+font-size: 2em;
+}
+.blue{
+    padding: 50px;
+    background-color: turquoise;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    }
+.gold{
+    padding: 50px;
+    background-color: gold;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
