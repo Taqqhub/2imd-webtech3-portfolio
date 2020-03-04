@@ -1,11 +1,26 @@
 .red {
     background-color: red;
+    display: grid;
+    margin: 15px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
 }
 .blue {
     background-color: turquoise;
+    display: grid;
+    margin: 15px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
 }
 .gold {
     background-color: gold;
+    display: grid;
+    margin: 15px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
 }
 
 p {
@@ -13,17 +28,26 @@ p {
     font-weight: bold;
 }
 .square {
-    display: grid;
-    margin: 15px;
-    width: 300px;
-    height: 150px;
-    text-align: center;
+    
 }
 .container{
     display: grid;
     
 }
 
+@media (min-width: 600px) {
+    .container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }  
+}
+
 @media (min-width: 1000px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }  
+
     
 }
