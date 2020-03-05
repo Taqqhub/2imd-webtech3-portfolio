@@ -52,13 +52,13 @@ p {
         grid-column-gap: 5px;
         grid-row-gap: 5px;
     }  
-.red{
-    grid-area: 1 / 1 / 4 / 3;
-}
-.blue{
-    grid-area: 1 / 3 / 4 / 4;
+
+.turq{
+    grid-column: 3/span(1);
+    grid-row: 1/span(3);
 }
 .gold{
-    grid-area: 2 / 4 / 4 / 6;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
 }
