@@ -13,3 +13,13 @@ div{
     font-size: 2em;
     padding: 50px;
 }
+
+.red{
+background-color: red;
+}
+.turq{
+background-color: turquoise;
+}
+.gold{
+background-color: gold;
+}
